@@ -159,7 +159,7 @@ redirect_from:
 
 # 📝 Research Experience-Other
 
-## **💡《肃巡直通车》系统开发 - 甘肃省酒泉市巡察办** <sub> &nbsp;&nbsp;[[项目报告]](https://mumuyeye.github.io/docs/huazhongbei.pdf)</sub>
+## **💡《肃巡直通车》系统开发 - 甘肃省酒泉市巡察办** <sub> &nbsp;&nbsp;[[表彰文件]](https://mumuyeye.github.io/docs/huazhongbei.pdf)</sub>
 
 - **时间：** 2024.4 - 2024.8  
 - **领域：** **前后端开发**  
