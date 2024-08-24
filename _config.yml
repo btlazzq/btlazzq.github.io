@@ -7,8 +7,8 @@
 
 # Site Settings
 title: "个人网页"
-description: "信息科学与工程学院 计算机科学与技术 2021级本科生"
-repository               : "https://samer-hue.github.io/"
+description: "软件学院 软件工程 2021级本科生"
+repository               : "https://btlazzq.github.io/"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "刘一澎"
+  name             : "王菡悦"
   avatar           : "images/lu.png"
-  bio              : "兰州大学"
-  location         : "甘肃省兰州市"
+  bio              : "新疆大学"
+  location         : "新疆维吾尔自治区乌鲁木齐市"
   employer         :
   pubmed           : 
   # googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "yipengliuedu@163.com"
+  email            : "20212501334@stu.xju.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
