@@ -64,8 +64,6 @@ redirect_from:
 - **项目成果：**  
   * 我们的模型取得了5.4724的最终分数，获得本次竞赛的铜牌（223 / 4436）。
 
----
-
 # 🧩 Research Experience-Large Language Models
 
 ## **💡 FuzzLLM - 主动发现LLM中越狱漏洞的新型通用模糊测试框架** <sub> &nbsp;&nbsp;[[项目主页]](https://mumuyeye.github.io/FuzzLLM_demo/) | [[项目代码]](https://github.com/mumuyeye/FuzzLLM/tree/muye)</sub>
@@ -128,8 +126,6 @@ redirect_from:
   2. **知识整合与交互平台：** 通过RAG技术整合外部知识库，使用Gradio构建交互式界面，为用户提供智能化、准确的文旅信息查询和推荐服务。
 - **项目成果：**  
   * 作为主力队员参加第十五届全国大学生服务外包创新创业大赛，并在省赛中荣获三等奖。
-  
----
 
 # 🧬 Research Experience-AI for Biomedicine
 
@@ -161,8 +157,6 @@ redirect_from:
 - **项目成果：**  
   * 作为主力队员参加第九届中国国际“互联网+”大学生创新创业大赛，荣获国家级银奖。
 
----
-
 # 📝 Research Experience-Other
 
 ## **💡《肃巡直通车》系统开发 - 甘肃省酒泉市巡察办** <sub> &nbsp;&nbsp;[[项目报告]](https://mumuyeye.github.io/docs/huazhongbei.pdf)</sub>
@@ -178,7 +172,7 @@ redirect_from:
   3. **数字化互动平台：** 项目充分利用数字经济的概念，通过微信小程序实现群众与巡察组之间的高效互动与信息交流，提升了巡察工作的透明度和参与度，强化了政府与群众之间的信任关系。
 - **项目成果：**  
   * 获中共酒泉市肃州区委巡察工作领导小组表彰: “王菡悦在项目开发中展现了卓越的专业素养和技术能力。通过创新的解决方案推动了政府工作透明度和群众参与度的提升。她的努力和贡献不仅得到了项目各方的高度认可，更为未来的数字化政务工作树立了标杆。”
-  
+
 --- 
 
 ## **💡 多波束测深系统的测线布置与重合率矫正** <sub> &nbsp;&nbsp;[[项目报告]](https://mumuyeye.github.io/docs/huazhongbei.pdf)</sub>
