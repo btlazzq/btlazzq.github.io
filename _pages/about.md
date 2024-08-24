@@ -165,6 +165,22 @@ redirect_from:
 
 # 📝 Research Experience-Other
 
+## **💡《肃巡直通车》系统开发 - 甘肃省酒泉市巡察办** <sub> &nbsp;&nbsp;[[项目报告]](https://mumuyeye.github.io/docs/huazhongbei.pdf)</sub>
+
+- **时间：** 2024.4 - 2024.8  
+- **领域：** **前后端开发**  
+- **角色：** 实习生/骨干成员  
+- **开发背景：**  
+  1. 甘肃省酒泉市巡察办主导开发的《肃巡直通车》微信小程序，旨在为巡察组提供便捷的数据收集和信息调查平台，方便群众更直接地反馈问题和意见，提升巡察工作效率和质量。
+- **我的贡献：**  
+  1. **前后端开发工作：** 作为主要开发人员，负责微信小程序和后端数据管理平台的前后端开发，包括数据收集、反馈机制、数据管理和安全保障等功能。巡察组成员可以记录巡察过程中的问题和调查结果，群众可以反馈问题或提出建议，小程序还提供数据存储、分类、分析和报告生成功能，并设置安全措施确保数据安全性和隐私性。
+  2. **智能数据分析：** 应用大模型技术进行巡察数据的智能分析，实现高效的数据处理和报告生成，设计并实现的算法显著提升了数据分析的精准度和处理速度，确保了巡察工作的及时性和有效性。
+  3. **数字化互动平台：** 项目充分利用数字经济的概念，通过微信小程序实现群众与巡察组之间的高效互动与信息交流，提升了巡察工作的透明度和参与度，强化了政府与群众之间的信任关系。
+- **项目成果：**  
+  * 获中共酒泉市肃州区委巡察工作领导小组表彰: “王菡悦在项目开发中展现了卓越的专业素养和技术能力。通过创新的解决方案推动了政府工作透明度和群众参与度的提升。她的努力和贡献不仅得到了项目各方的高度认可，更为未来的数字化政务工作树立了标杆。”
+  
+--- 
+
 ## **💡 多波束测深系统的测线布置与重合率矫正** <sub> &nbsp;&nbsp;[[项目报告]](https://mumuyeye.github.io/docs/huazhongbei.pdf)</sub>
 
 - **时间：** 2023.4 - 2023.5  
@@ -182,19 +198,19 @@ redirect_from:
 
 # 🏆 Competition Awards
 
-- **“华数杯”全国大学生数学建模竞赛：一等奖** *国家级* 2023 &nbsp;&nbsp;[[证明]](https://mumuyeye.github.io/docs/2024jishe.pdf)  
-- **全国大学生数据统计与分析竞赛：一等奖** *国家级* 2023 &nbsp;&nbsp;[[证明]](http://www.hzbmmc.com/views/award/award-item.html?id=1663113745191030785&navigate=inform)  
-- **“英语世界”杯全国大学生英语语法大赛：一等奖** *国家级* 2023 &nbsp;&nbsp;[[证明]](https://x-static.lanqiao.cn/upload/202405/courseimg/86b0fcef-64d9-4bc3-ac81-b5f776a44c00.pdf)  
-- **全国大学生数学竞赛：二等奖** *国家级* 2023 &nbsp;&nbsp;[[证明]](https://mumuyeye.github.io/docs/shujingguoer.png)  
-- **“互联网＋”大学生创新创业大赛：金奖** *省部级* 2023 &nbsp;&nbsp;[[证明]](https://mumuyeye.github.io/docs/2024CCCCASTxuanbasai.pdf)  
-- **全国大学生数学建模竞赛：一等奖** *省部级* 2023 &nbsp;&nbsp;[[证明]](https://mumuyeye.github.io/docs/2024CRAIChubei.pdf)  
-- **全国大学生数学建模竞赛：一等奖** *省部级* 2022 &nbsp;&nbsp;[[证明]](https://mp.weixin.qq.com/s/HNQI1J82cJGcGI2ybIIoXg)  
+- **中国国际“互联网+”大学生创新创业大赛(全国总决赛)：银奖** *国家级* 2023 &nbsp;&nbsp;[[证明]](https://mumuyeye.github.io/docs/2024jishe.pdf)  
+- **全国大学生软件创新大赛(全国总决赛)：三等奖** *国家级* 2024 &nbsp;&nbsp;[[证明]](http://www.hzbmmc.com/views/award/award-item.html?id=1663113745191030785&navigate=inform)  
+- **全国大学生数学建模竞赛：特等奖** *省部级* 2023 &nbsp;&nbsp;[[证明]](https://mumuyeye.github.io/docs/2024CRAIChubei.pdf)  
+- **中国国际“互联网+”大学生创新创业大赛(省级赛)：金奖** *国家级* 2023 &nbsp;&nbsp;[[证明]](https://mumuyeye.github.io/docs/2024jishe.pdf)  
+- **全国大学生软件创新大赛(西北赛区)：一等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](http://www.hzbmmc.com/views/award/award-item.html?id=1663113745191030785&navigate=inform)  
+- **国际大学生程序设计竞赛(ACM-ICPC)：银牌** *省部级* 2023 &nbsp;&nbsp;[[证明]](https://mp.weixin.qq.com/s/HNQI1J82cJGcGI2ybIIoXg)  
+- **中国大学生服务外包创新创业大赛(西部区域赛)：三等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](http://www.hzbmmc.com/views/award/award-item.html?id=1663113745191030785&navigate=inform)  
+- **中国大学生计算机设计大赛(省级赛)：三等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](http://www.hzbmmc.com/views/award/award-item.html?id=1663113745191030785&navigate=inform)  
 
 # 🥇 Scholarships and Honors
 
-- *2021-2022* **国家奖学金** (该年度年级成绩排名：1/108) *兰州大学* &nbsp;&nbsp;[[证明]](..\docs\national_scholarship_2021_2022.pdf)  
-- *2021-2022* **兰州大学优秀学生一等奖学金** (获奖率：3%) *兰州大学* &nbsp;&nbsp;[[证明]](..\docs\excellent_student_scholarship.pdf)  
-- *2021-2022* **兰州大学学生标兵** *兰州大学* &nbsp;&nbsp;[[证明]](..\docs\student_pacesetter.pdf)  
+- *2021-2022* **中国近现代感恩科学家奖学金** (全学院仅1个名额) *新疆大学* &nbsp;&nbsp;[[证明]](https://mumuyeye.github.io/docs/r.png)  
+- *2021-2022* **新疆大学三好学生** (多次) *新疆大学* &nbsp;&nbsp;[[证明]](https://mumuyeye.github.io/docs/r.png)  
 
 # 📖 Educations
 
