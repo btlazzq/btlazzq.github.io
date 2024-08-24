@@ -112,7 +112,7 @@ redirect_from:
 
 ---
 
-## **💡 长安陌上 - 基于Qwen大模型的语料库问答平台**  
+## **💡 长安陌上 - 基于Qwen大模型的语料库问答平台** <sub> &nbsp;&nbsp;[[演示文档]](https://btlazzq.github.io/docs/changanmoshangPPT.pdf)</sub>
 
 - **时间：** 2023.6 - 2024.2  
 - **领域：** **大语言模型微调**，**RAG**  
@@ -143,7 +143,7 @@ redirect_from:
 
 ---
 
-## **💡 光诊-全国胶质瘤早期筛查技术领创先锋**
+## **💡 光诊-全国胶质瘤早期筛查技术领创先锋** <sub> &nbsp;&nbsp;[[演示文档]](https://btlazzq.github.io/docs/guangzhenPPT.pdf)</sub>
 
 - **时间：** 2023.6 - 2024.2  
 - **领域：** **AI for Biomedicine**  
@@ -159,7 +159,7 @@ redirect_from:
 
 # 📝 Research Experience-Other
 
-## **💡《肃巡直通车》系统开发 - 甘肃省酒泉市巡察办** <sub> &nbsp;&nbsp;[[表彰文件]](https://mumuyeye.github.io/docs/huazhongbei.pdf)</sub>
+## **💡《肃巡直通车》系统开发 - 甘肃省酒泉市巡察办** <sub> &nbsp;&nbsp;[[表彰文件]](https://btlazzq.github.io/docs/shumo23B.pdf)</sub>
 
 - **时间：** 2024.4 - 2024.8  
 - **领域：** **前后端开发**  
@@ -175,7 +175,7 @@ redirect_from:
 
 --- 
 
-## **💡 多波束测深系统的测线布置与重合率矫正** <sub> &nbsp;&nbsp;[[项目报告]](https://mumuyeye.github.io/docs/huazhongbei.pdf)</sub>
+## **💡 多波束测深系统的测线布置与重合率矫正** <sub> &nbsp;&nbsp;[[项目报告]](https://btlazzq.github.io/docs/suxunzhitongcheZHENGMING.pdf)</sub>
 
 - **时间：** 2023.4 - 2023.5  
 - **领域：** **数学建模**  
