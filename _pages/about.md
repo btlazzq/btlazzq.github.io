@@ -57,58 +57,31 @@ redirect_from:
 - **领域：** **时间序列预测**，**AI for Trading**  
 - **角色：** 团队(主力队员)  
 - **研究背景：**  
-  1. 股票交易所是一个节奏快速、风险高的环境，尤其是在交易日的最后十分钟，波动性和价格波动达到峰值，对于全球经济叙事的形成具有重要影响。
-  2. 在纳斯达克交易所交易的最后十分钟，做市商需要结合订单簿数据和拍卖簿数据，为所有市场参与者提供最佳价格。
-  3. 本次竞赛的挑战是开发一个模型，利用订单簿和股票收盘拍卖数据，预测数百支纳斯达克上市股票的收盘价走势。
+  1. 股票交易以高波动性和快速的价格变化为特征，特别是在纳斯达克交易所，每个交易日都以收盘交叉拍卖结束。该过程确定了证券的官方收盘价格，是市场参与者评估市场表现的关键指标。
+  2. 在交易的最后十分钟，做市商会将传统订单簿数据与拍卖簿数据相结合，提供最佳的价格参考。在这次比赛中，挑战在于开发一个模型，利用订单簿和收盘拍卖数据来预测数百支纳斯达克股票的收盘价走势。
 - **我们的方法：**  
+  1. **特征工程：** 进行特征转换，处理时序数据（如时间特征提取、滚动窗口统计等），并进行特征选择。
+  2. **回归算法测试：** 尝试多种回归算法（如CatBoost、XGB、LGBM、神经网络等），最终确定LGBM与神经网络为最佳模型。
+  3. **超参数优化：** 使用Grid Search和Randomized Search方法分别进行超参数优化，综合考虑后选取合适的超参数。
 - **项目成果：**  
-  * 我们的模型取得了5.4724的最终分数，获得本次竞赛的铜牌（223 / 4436）。
+  * 取得了5.4724的最终分数，获得铜牌(Top 6%)。
 
 # 🧩 Research Experience-Large Language Models
 
-## **💡 FuzzLLM - 主动发现LLM中越狱漏洞的新型通用模糊测试框架** <sub> &nbsp;&nbsp;[[项目主页]](https://mumuyeye.github.io/FuzzLLM_demo/) | [[项目代码]](https://github.com/mumuyeye/FuzzLLM/tree/muye)</sub>
-
-- **时间：** 2023.6 - 2023.11  
-- **领域：** **大语言模型**，**人工智能安全**  
-- **角色：** 团队(主力成员)  
-- **针对痛点：**  
-  1. LLMs的广泛应用引入了安全风险，尤其是越狱漏洞问题。
-  2. 尽管LLM提供者如OpenAI通过更新模型版本和加强防御机制来修补漏洞，但这种攻防游戏中，模型所有者通常处于被动地位，只有在攻击被证明有效后才能开发防护措施。
-  3. 高质量标记数据的稀缺性限制了安全微调机制的有效性，且现有工作常未全面公开
-
-其测试数据集，开发者只能对已知提示及其变体进行防护。
-- **我们的方法：**  
-  1. **引入FuzzLLM：** 采用黑盒模糊测试方法，通过自动生成大量随机但结构化的输入提示来测试模型，无需访问或了解模型内部结构。
-  2. **模板、约束和问题集：** FuzzLLM将越狱提示分解为这些元素，自动构造新的越狱提示，基于现有研究成果。
-  3. **提高测试全面性：** 这种方法增加了测试的广度和深度，帮助模型提供者提前识别和修复潜在安全漏洞。
-- **项目成果：**  
-  * 已与复旦团队研发的统一越狱框架EasyJailbreak取得联系并加入其开源框架。
-
----
-
-## **💡 Kaggle: LMSYS-Chatbot Arena Human Preference Predictions** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/lmsys-chatbot-arena) | [[Leaderboard]](https://www.kaggle.com/competitions/asl-fingerspelling/leaderboard)</sub>  
+## **💡 Kaggle: LMSYS-Chatbot Arena Human Preference Predictions** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/lmsys-chatbot-arena) | [[Leaderboard]](https://www.kaggle.com/competitions/lmsys-chatbot-arena/leaderboard)</sub>  
 
 - **时间：** 2024.5 - 2024.8  
-- **领域：** **大语言模型**，**大语言模型微调**  
+- **领域：** **大语言模型**，**LLM问答**  
 - **角色：** 团队(主力成员)  
 - **研究背景：**  
-  1. 竞赛任务是预测用户在两个人工智能对话系统（LLM）之间的对决中更偏爱哪个回答。参赛者将获得一组由不同LLM生成的对话数据。
-  2. 通过开发机器学习模型预测用户偏好，旨在改进聊天机器人与人类的互动方式，使其更符合人类偏好。
+  1. 本次竞赛的挑战是预测用户在两个人工智能对话系统（LLM）之间的对决中更偏爱哪个回答。参赛者将获得一组来自Chatbot Arena的对话数据，这些对话是由不同的LLM生成的。
+  2. 通过开发一个获胜的机器学习模型，目标是改进聊天机器人与人类的互动方式，使其更符合人类的偏好。
+- **我们的方法：**  
+  1. **模型选择与测试：** 最初测试了Deberta base、Deberta v2、Xlarge、Deberta v3 large等“小语言”模型，效果不佳。参考公开方案和讨论区观点后，转向“大语言”模型测试。
+  2. **大语言模型尝试：** 尝试了Gemma2 9b，Gemma2 27b，Llama3 8b模型。Gemma2 27b在本地测试表现最佳，但因超出比赛环境GPU显存限制，最终选择Gemma2 9b和Llama3 8b模型。
+  3. **微调与集成：** 使用QLoRA对两个模型进行微调，尝试两种方案：[对Gemma2 9b设置较高的Rank（32,64）微调作为单模型]和[对Gemma2 9b和Llama3 8b均设置较低的Rank（16）进行微调，最后集成]，最终选择了集成方案。
 - **项目成果：**  
-  * 开发的模型取得0.98739的最终分数，获得银牌（27 / 1849）。  
-
----
-
-## **💡 Kaggle: LLM-Detect AI Generated Text** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/llm-detect-ai-generated-text) | [[Leaderboard]](https://www.kaggle.com/competitions/llm-detect-ai-generated-text/leaderboard)</sub>  
-
-- **时间：** 2023.11 - 2024.1  
-- **领域：** **大语言模型**，**大语言模型微调**  
-- **角色：** 个人(Solo)  
-- **研究背景：**  
-  1. 随着大语言模型（LLM）的发展，其生成的文本越来越难以与人类写作区分。此次竞赛旨在推进AI检测技术在实际应用中的开放研究和透明度。
-  2. 参赛者的任务是开发一个机器学习模型，准确区分文章是由学生还是由LLM生成的。
-- **项目成果：**  
-  * 取得0.904209的最终分数，获得铜牌（222 / 4436）。  
+  * 取得了0.98739的最终分数，获得银牌(Top 2%)。
 
 ---
 
@@ -129,17 +102,42 @@ redirect_from:
 
 # 🧬 Research Experience-AI for Biomedicine
 
-## **💡 HCoVDB - 抗病毒药物及其相关靶点的综合数据库**
+## **💡 HCoVDB-抗病毒药物及其相关靶点的综合数据库**  
 
 - **时间：** 2023.6 - 2024.2  
 - **领域：** **AI for Biomedicine**  
 - **角色：** 第三作者  
 - **研究背景：**  
-  - 研究背景描述未提供，需要补充关于抗病毒药物及靶点数据库的重要性及目前的研究空白。
+  1. 抗病毒药物在应对人类冠状病毒（HCoV）感染时，尤其是针对新兴病毒如SARS-CoV-2，起到了关键作用。然而，由于病毒变异性和宿主相互作用的复杂性，传统的单一抗病毒治疗效果有限。
+  2. 当前研究人员和临床医生正在探索多靶点或组合疗法的潜力，以提高治疗效果并减少耐药性。为支持这些研究，需要建立一个全面的抗病毒药物及其靶点的数据库，促进新疗法的开发和优化。
 - **我们的方法：**  
-  - 方法描述未提供，需要补充关于数据库构建、数据来源、数据处理、以及数据库特点等具体方法。
+  1. **HCovDB数据库开发：** 我们开发了一个名为HCovDB的综合数据库，专注于抗病毒药物及其相关靶点信息的整合。数据库收集了来自高通量筛选实验、手动文献整理和现有公共数据库的信息。
+  2. **数据整合与应用：** HCovDB涵盖了大量已批准药物和实验性药物组合，特别针对多种冠状病毒的药物。该平台为研究人员提供集中访问抗病毒药物信息的工具，支持潜在抗病毒组合疗法的筛选和预测模型的开发。
 - **项目成果：**  
-  * 相关论文已经基本完成（数据库论文），拟投稿至 **Nucleic Acids Research** (中科院1区TOP)。
+  * 相关论文已基本完成，拟投稿至**Nucleic Acids Research** (中科院1区TOP)。
+
+---
+
+## **💡 NeurIPS 2024 - Predict New Medicines with BELKA** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/leash-BELKA) | [[Leaderboard]](https://www.kaggle.com/competitions/leash-BELKA/leaderboard)</sub>  
+
+- **时间：** 2024.4 - 2024.7  
+- **领域：** **AI for Biomedicine**  
+- **角色：** 团队(主力队员)  
+- **研究背景：**  
+  1. 小分子药物通过与细胞蛋白质机制相互作用来影响其功能。通常，药物设计旨在抑制与疾病相关的单个蛋白质靶标。然而，传统的候选分子识别方法费力且耗时。
+  2. 虽然FDA已批准了约2000种新分子实体，但类药物空间中的化学物质数量非常庞大（估计达10^60），因此不可能通过物理搜索进行全面筛选。隐藏在化学空间中的人类疾病的潜在有效治疗方法仍需发现。
+  3. 为了评估小分子化学的潜在搜索方法，本次竞赛使用DNA编码化学文库（DEL）技术对约133M个小分子进行物理测试，提供开发药物发现预测模型的机会。
+  4. 比赛旨在通过机器学习技术改进小分子结合预测，利用计算模型而非实验室实验来搜索化学空间。
+- **我们的方法-Nonshared Target：**  
+  1. **基础模型选择：** 使用ChemBERTa-10M-MTR作为基础模型。
+  2. **训练与微调：** 对所有蛋白质，均使用4M采样微调每个模型。特别针对sEH Triazine core，使用混合数据集微调，优化对未知core的预测。冻结了ChemBERTa模型前三层的权重以防止过拟合。
+  3. **集成方法：** 测试了Simple average、CV-weighted average、CV-weighted average to the power of 5，最终选取最后一种。
+- **我们的方法-Shared Target：**  
+  1. **基础模型选择：** 使用1DCNN模型。
+  2. **数据分割与训练：** 使用StratifiedKFold生成的5-fold split，训练数据全覆盖。
+  3. **模型改进：** 增加过滤器数量、添加BatchNormalization、引入shortcut connections和注意力机制、调整Dropout率。
+- **项目成果：**  
+  * 取得了0.24486的最终分数，接近铜牌(Top 23%)。
 
 ---
 
@@ -192,14 +190,18 @@ redirect_from:
 
 # 🏆 Competition Awards
 
-- **中国国际“互联网+”大学生创新创业大赛(全国总决赛)：银奖** *国家级* 2023 &nbsp;&nbsp;[[证明]](https://mumuyeye.github.io/docs/2024jishe.pdf)  
-- **全国大学生软件创新大赛(全国总决赛)：三等奖** *国家级* 2024 &nbsp;&nbsp;[[证明]](http://www.hzbmmc.com/views/award/award-item.html?id=1663113745191030785&navigate=inform)  
-- **全国大学生数学建模竞赛：特等奖** *省部级* 2023 &nbsp;&nbsp;[[证明]](https://mumuyeye.github.io/docs/2024CRAIChubei.pdf)  
-- **中国国际“互联网+”大学生创新创业大赛(省级赛)：金奖** *国家级* 2023 &nbsp;&nbsp;[[证明]](https://mumuyeye.github.io/docs/2024jishe.pdf)  
-- **全国大学生软件创新大赛(西北赛区)：一等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](http://www.hzbmmc.com/views/award/award-item.html?id=1663113745191030785&navigate=inform)  
-- **国际大学生程序设计竞赛(ACM-ICPC)：银牌** *省部级* 2023 &nbsp;&nbsp;[[证明]](https://mp.weixin.qq.com/s/HNQI1J82cJGcGI2ybIIoXg)  
-- **中国大学生服务外包创新创业大赛(西部区域赛)：三等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](http://www.hzbmmc.com/views/award/award-item.html?id=1663113745191030785&navigate=inform)  
-- **中国大学生计算机设计大赛(省级赛)：三等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](http://www.hzbmmc.com/views/award/award-item.html?id=1663113745191030785&navigate=inform)  
+- **Kaggle: Chatbot Arena Human Preference Predictions：银牌** *国家级* 2024 &nbsp;&nbsp;[[Leaderboard]](https://www.kaggle.com/competitions/lmsys-chatbot-arena/leaderboard)  
+- **Kaggle: LLM-Detect AI Generated Text：铜牌** *国家级* 2024 &nbsp;&nbsp;[[Leaderboard]](https://www.kaggle.com/competitions/llm-detect-ai-generated-text/leaderboard)  
+- **Kaggle: Optiver - Trading at the Close：铜牌** *国家级* 2024 &nbsp;&nbsp;[[Leaderboard]](https://www.kaggle.com/competitions/optiver-trading-at-the-close/leaderboard)  
+- **中国国际“互联网+”大学生创新创业大赛(全国总决赛)：银奖** *国家级* 2023 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDhulianwang+guo.pdf)  
+- **全国大学生软件创新大赛(全国总决赛)：三等奖** *国家级* 2024 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDruanchuang_guo.pdf)  
+- **全国大学生数学建模竞赛：特等奖** *省部级* 2023 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDshumo.pdf)  
+- **中国国际“互联网+”大学生创新创业大赛(省级赛)：金奖** *省部级* 2023 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDhulianwang+sheng.pdf)  
+- **全国大学生软件创新大赛(西北赛区)：一等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDruanchuang_sheng.pdf)  
+- **国际大学生程序设计竞赛(ACM-ICPC)：银牌** *省部级* 2023 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDicpc.pdf)  
+- **中国大学生服务外包创新创业大赛(西部区域赛)：三等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDfuchuang.pdf)  
+- **中国大学生计算机设计大赛(省级赛)：三等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDjishe1.pdf)  
+- **中国大学生计算机设计大赛(省级赛)：三等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDjishe2.pdf)   
 
 # 🥇 Scholarships and Honors
 
