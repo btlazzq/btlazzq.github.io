@@ -205,8 +205,8 @@ redirect_from:
 
 # 🥇 Scholarships and Honors
 
-- *2021-2022* **中国近现代感恩科学家奖学金** (全学院仅1个名额) *新疆大学* &nbsp;&nbsp;[[证明]](https://mumuyeye.github.io/docs/r.png)  
-- *2021-2022* **新疆大学三好学生** (多次) *新疆大学* &nbsp;&nbsp;[[证明]](https://mumuyeye.github.io/docs/r.png)  
+- *2021-2022* **中国近现代感恩科学家奖学金** (全学院仅1个名额) *新疆大学*  
+- *2021-2022* **新疆大学三好学生** (多次) *新疆大学* 
 
 # 📖 Educations
 
