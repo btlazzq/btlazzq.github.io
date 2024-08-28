@@ -28,7 +28,7 @@ redirect_from:
 - **核心课程：** 高等数学 (100)、线性代数 (94)、概率论与数理统计 (95)、离散数学 (98)、程序设计基础 (95)、Python (97)、Java (96)、Web程序设计 (92)、数据结构与算法分析 (96)、人工智能 (99)、软件工程 (95)、ICS (91)、操作系统 (94)、数据库 (93)、计算机网络 (93)、网络与信息安全 (98)  
 - **编程能力：** 熟练掌握 C++ 和 Python，熟悉算法与数据结构，代码能力强，曾获 ACM-ICPC 银牌；熟练掌握 PyTorch、Numpy、Pandas，熟悉各类深度学习模型及其编程实现；长期担任数学建模编程手，曾获“高教社杯”全国大学生数学建模竞赛省级特等奖  
 - **开发工具：** VS Code, PyCharm, Jupyter Notebook, LaTeX (Overleaf), Git  
-- **在校荣誉：** 曾获第六届中国近现代感恩科学家奖学金（全学院仅1个名额）、新疆大学三好学生（多次）
+- **在校荣誉：** 曾获第六届中国近现代感恩科学家奖学金（全学院仅1个名额）、新疆大学三好学生
 
 # 🔥 News
 
@@ -47,7 +47,7 @@ redirect_from:
   2. **多步价格预测策略：** 通过高精度预测未来32天内的加密货币价格趋势，显著提升了预测模型的泛化性和鲁棒性。
 - **项目成果：**  
   * 在Global Technology and Cryptocurrency Volatility、S&P 500指数等多个数据集上的实验结果显示，TempoStackNet在准确性、泛化性和鲁棒性方面优于现有的SOTA方法。
-  * 相关论文已投稿至**Scientific Reports** (中科院2区TOP)。
+  * 相关论文已投稿至**Scientific Reports** (中科院2区)。
 
 ---
 
@@ -157,7 +157,7 @@ redirect_from:
 
 # 📝 Research Experience-Other
 
-## **💡《肃巡直通车》系统开发 - 甘肃省酒泉市巡察办** <sub> &nbsp;&nbsp;[[表彰文件]](https://btlazzq.github.io/docs/shumo23B.pdf)</sub>
+## **💡《肃巡直通车》系统开发 - 甘肃省酒泉市巡察办** <sub> &nbsp;&nbsp;[[表彰文件]](https://btlazzq.github.io/docs/suxunzhitongcheZHENGMING.pdf)</sub>
 
 - **时间：** 2024.4 - 2024.8  
 - **领域：** **前后端开发**  
@@ -173,7 +173,7 @@ redirect_from:
 
 --- 
 
-## **💡 多波束测深系统的测线布置与重合率矫正** <sub> &nbsp;&nbsp;[[项目报告]](https://btlazzq.github.io/docs/suxunzhitongcheZHENGMING.pdf)</sub>
+## **💡 多波束测深系统的测线布置与重合率矫正** <sub> &nbsp;&nbsp;[[项目报告]](https://btlazzq.github.io/docs/shumo23B.pdf)</sub>
 
 - **时间：** 2023.4 - 2023.5  
 - **领域：** **数学建模**  
