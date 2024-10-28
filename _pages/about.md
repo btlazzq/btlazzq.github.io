@@ -18,7 +18,7 @@ redirect_from:
 
 大家好！我是**王菡悦**，目前是本科三年级学生，就读于[新疆大学软件学院](https://ss.xju.edu.cn/)软件工程专业。同时，我还曾在[中南大学计算机学院](https://cse.csu.edu.cn/)进行了为期一年的软件工程联合培养。
 
-我对人工智能充满热情，自入学以来，积极参与各类科研项目和学术竞赛，曾获得中国近现代感恩科学家奖学金（全学院仅1个名额）、ACM-ICPC银牌等多项校内外奖项。在科研方面，我参与并主导了多个项目，包括但不限于**时间序列**、**大语言模型**、**AI for Biomedicine**等领域。
+我对人工智能充满热情，自入学以来，积极参与各类科研项目和学术竞赛，曾获得中国近现代感恩科学家奖学金（全学院仅1个名额）、ACM-ICPC银牌等多项校内外奖项。在科研方面，我参与并主导了多个项目，包括但不限于**时间序列**、**大语言模型**等领域。
 
 # 🎓 Education Background
 
@@ -47,7 +47,7 @@ redirect_from:
   2. **多步价格预测策略：** 通过高精度预测未来32天内的加密货币价格趋势，显著提升了预测模型的泛化性和鲁棒性。
 - **项目成果：**  
   * 在Global Technology and Cryptocurrency Volatility、S&P 500指数等多个数据集上的实验结果显示，TempoStackNet在准确性、泛化性和鲁棒性方面优于现有的SOTA方法。
-  * 相关论文已投稿至**Scientific Reports** (中科院2区)。
+  * 相关论文已投稿至中科院2区期刊。
 
 ## **💡 Kaggle: Optiver - Trading at the Close** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/optiver-trading-at-the-close) | [[Leaderboard]](https://www.kaggle.com/competitions/optiver-trading-at-the-close/leaderboard)</sub>  
 
