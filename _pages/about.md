@@ -80,7 +80,7 @@ redirect_from:
 - **项目成果：**  
   * 取得了0.98739的最终分数，获得银牌(Top 2%)。
 
-## **💡 长安陌上 - 基于Qwen大模型的语料库问答平台** <sub> &nbsp;&nbsp;[[演示文档]](https://btlazzq.github.io/docs/changanmoshangPPT.pdf)</sub>
+## **💡 长安陌上 - 基于Qwen大模型的语料库问答平台** 
 
 - **时间：** 2023.6 - 2024.2  
 - **领域：** **大语言模型微调**，**RAG**  
@@ -107,13 +107,12 @@ redirect_from:
 - **全国大学生软件创新大赛(西北赛区)：一等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDruanchuang_sheng.pdf)  
 - **国际大学生程序设计竞赛(ACM-ICPC)：银牌** *省部级* 2023 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDicpc.pdf)  
 - **中国大学生服务外包创新创业大赛(西部区域赛)：三等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDfuchuang.pdf)  
-- **中国大学生计算机设计大赛(省级赛)：三等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDjishe1.pdf)  
-- **中国大学生计算机设计大赛(省级赛)：三等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDjishe2.pdf)   
 
 # 🥇 Scholarships and Honors
 
-- *2021-2022* **中国近现代感恩科学家奖学金** (全学院仅1个名额) *新疆大学*  
-- *2023-2024* **新疆大学三好学生标兵** *新疆大学* 
+- *2021-2022* **中国近现代感恩科学家奖学金** (全学院仅1个名额)  
+- *2023-2024* **三好学生标兵** 
+- *2024-2025* **国家奖学金** 
 
 # 📖 Educations
 
