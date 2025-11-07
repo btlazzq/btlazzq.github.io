@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "王菡悦"
   avatar           : "images/lu.png"
-  bio              : "新疆大学"
-  location         : "新疆维吾尔自治区乌鲁木齐市"
+  bio              : "浙江大学"
+  location         : "浙江省杭州市"
   employer         :
   pubmed           : 
   # googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "20212501334@stu.xju.edu.cn"
+  email            : "btlazzq77@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
