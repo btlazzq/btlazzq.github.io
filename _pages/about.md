@@ -16,8 +16,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-大家好！我是**王菡悦**，目前是硕士一年级学生，就读于至[浙江大学计算机科学与技术学院](http://www.cs.zju.edu.cn/)。本科就读于[新疆大学软件学院](https://ss.xju.edu.cn/)软件工程专业。同时，我还曾在[中南大学计算机学院](https://cse.csu.edu.cn/)进行了为期一年的软件工程联合培养。
-我对人工智能充满热情，自入学以来，积极参与各类科研项目和学术竞赛，曾获得中国近现代感恩科学家奖学金（全学院仅1个名额）、ACM-ICPC银牌等多项校内外奖项。在科研方面，我参与并主导了多个项目，包括但不限于**时间序列**、**大语言模型**等领域。硕士期间研究方向为**多模态大模型**、**Deepfake**。
+大家好！我是**王菡悦**，目前是硕士一年级学生，就读于至[浙江大学计算机科学与技术学院](http://www.cs.zju.edu.cn/)。
+我对人工智能充满热情，自入学以来，积极参与各类科研项目和学术竞赛，曾获得中国近现代感恩科学家奖学金（全学院仅1个名额）、ACM-ICPC银牌等多项校内外奖项。在科研方面，我参与并主导了多个项目，包括但不限于**时间序列**、**大语言模型**等领域。硕士期间研究方向为**内容安全**、**Deepfake**。
 
 # 🎓 Education Background
 
@@ -46,7 +46,6 @@ redirect_from:
   2. **多步价格预测策略：** 通过高精度预测未来32天内的加密货币价格趋势，显著提升了预测模型的泛化性和鲁棒性。
 - **项目成果：**  
   * 在Global Technology and Cryptocurrency Volatility、S&P 500指数等多个数据集上的实验结果显示，TempoStackNet在准确性、泛化性和鲁棒性方面优于现有的SOTA方法。
-  * 相关论文已投稿至中科院2区期刊（2024年已经录用）。
 
 ## **💡 Kaggle: Optiver - Trading at the Close** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/optiver-trading-at-the-close) | [[Leaderboard]](https://www.kaggle.com/competitions/optiver-trading-at-the-close/leaderboard)</sub>  
 
@@ -80,42 +79,21 @@ redirect_from:
 - **项目成果：**  
   * 取得了0.98739的最终分数，获得银牌(Top 2%)。
 
-## **💡 长安陌上 - 基于Qwen大模型的语料库问答平台** 
-
-- **时间：** 2023.6 - 2024.2  
-- **领域：** **大语言模型微调**，**RAG**  
-- **角色：** 团队(主力成员)  
-- **研究背景：**  
-  1. 大语言模型（LLM）具备处理复杂任务的能力和强大的语言理解能力，可以为文旅行业提供支持和赋能。
-  2. 然而，通用型LLM在特定领域缺乏足够的领域专业知识，且现有LLM系统在生成输出时存在一定的幻觉问题，导致输出结果可能不符合用户的预期。
-  3. 因此，亟需开发一个基于LLM的高准确度文旅语料库问答平台，以提供精准的文旅信息服务。
-- **我们的方法：**  
-  1. **数据获取与模型微调：** 使用爬虫技术获取西安文旅数据，构建专用语料库，并对Qwen大模型进行LoRA微调，提升模型在特定领域的知识深度。
-  2. **知识整合与交互平台：** 通过RAG技术整合外部知识库，使用Gradio构建交互式界面，为用户提供智能化、准确的文旅信息查询和推荐服务。
-- **项目成果：**  
-  * 作为主力队员参加第十五届全国大学生服务外包创新创业大赛，并在省赛中荣获三等奖。
-
 # 🏆 Competition Awards
 
-- **Kaggle: Chatbot Arena Human Preference Predictions：银牌** *国家级* 2024 &nbsp;&nbsp;[[Leaderboard]](https://www.kaggle.com/competitions/lmsys-chatbot-arena/leaderboard)  
-- **Kaggle: LLM-Detect AI Generated Text：铜牌** *国家级* 2024 &nbsp;&nbsp;[[Leaderboard]](https://www.kaggle.com/competitions/llm-detect-ai-generated-text/leaderboard)  
-- **Kaggle: Optiver - Trading at the Close：铜牌** *国家级* 2024 &nbsp;&nbsp;[[Leaderboard]](https://www.kaggle.com/competitions/optiver-trading-at-the-close/leaderboard)  
-- **中国国际“互联网+”大学生创新创业大赛(全国总决赛)：银奖** *国家级* 2023 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDhulianwang+guo.pdf)  
-- **全国大学生软件创新大赛(全国总决赛)：三等奖** *国家级* 2024 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDruanchuang_guo.pdf)  
-- **全国大学生数学建模竞赛：特等奖** *省部级* 2023 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDshumo.pdf)  
-- **中国国际“互联网+”大学生创新创业大赛(省级赛)：金奖** *省部级* 2023 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDhulianwang+sheng.pdf)  
-- **全国大学生软件创新大赛(西北赛区)：一等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDruanchuang_sheng.pdf)  
-- **国际大学生程序设计竞赛(ACM-ICPC)：银牌** *省部级* 2023 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDicpc.pdf)  
-- **中国大学生服务外包创新创业大赛(西部区域赛)：三等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](https://btlazzq.github.io/docs/AWARDfuchuang.pdf)  
+- **Kaggle: Chatbot Arena Human Preference Predictions：银牌** *国家级* 2024  
+- **Kaggle: LLM-Detect AI Generated Text：铜牌** *国家级* 2024 
+- **Kaggle: Optiver - Trading at the Close：铜牌** *国家级* 2024 
+- **中国国际“互联网+”大学生创新创业大赛(全国总决赛)：银奖** *国家级* 2023  
+- **全国大学生软件创新大赛(全国总决赛)：三等奖** *国家级* 2024 
+- **全国大学生数学建模竞赛：特等奖** *省部级* 2023 
+- **中国国际“互联网+”大学生创新创业大赛(省级赛)：金奖** *省部级* 2023 
+- **全国大学生软件创新大赛(西北赛区)：一等奖** *省部级* 2024 
+- **国际大学生程序设计竞赛(ACM-ICPC)：银牌** *省部级* 2023 
+- **中国大学生服务外包创新创业大赛(西部区域赛)：三等奖** *省部级* 2024 
 
 # 🥇 Scholarships and Honors
 
 - *2021-2022* **中国近现代感恩科学家奖学金** 
 - *2023-2024* **三好学生标兵** 
 - *2024-2025* **国家奖学金** 
-
-# 📖 Educations
-
-- **2021.9 - 2025.6**，本科生，新疆大学软件学院，专业：软件工程  
-- **2022.9 - 2023.9**，本科生，中南大学计算机学院（联合培养），专业：软件工程
-- **2025.9 - 至今**，硕士研究生，浙江大学计算机学院，专业：计算机技术
